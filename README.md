@@ -84,6 +84,7 @@ export class AppComponent {
 }
 ```
 ### rectangle.component.ts:
+```
 import { Component } from "@angular/core";
 
 @Component({
@@ -106,7 +107,9 @@ export class RectangleComponent{
         this.area = this.length*this.breadth;
     }
 }
+```
 ### cylinder.component.ts:
+```
 import { Component } from "@angular/core";
 import { RadioControlValueAccessor } from "@angular/forms";
 
@@ -130,7 +133,9 @@ export class CylinderComponent{
         this.area = this.area = 3.14*this.radius*this.radius*this.height
     }
 }
+```
 ### app.component.css:
+```
 .container{
     background-color: red;
     text-align: center;
@@ -147,7 +152,9 @@ export class CylinderComponent{
 h1{
     text-decoration: underline;
 }
+```
 ### app.module.ts:
+```
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -170,6 +177,7 @@ import { RectangleComponent } from './rectangle/rectangle.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+```
 
 ## OUTPUT:
 ![githubloho](saw.jpeg)
