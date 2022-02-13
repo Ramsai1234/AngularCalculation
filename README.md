@@ -45,7 +45,7 @@ Publish the website in the given URL.
             <Cylinder-Area></Cylinder-Area>
         </div>
         <div class="footer">
-            Developed by: Koduru Sanath Kumar Reddy
+            Developed by: Punugoti Ram sai
         </div>
     </div>
 </body>
