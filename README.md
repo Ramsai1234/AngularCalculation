@@ -137,12 +137,12 @@ export class CylinderComponent{
 ### app.component.css:
 ```
 .container{
-    background-color: red;
+    background-color: violet;
     text-align: center;
     height: 720pxx;
 }
 .subcontainer{
-    background-color: orange;
+    background-color: blue;
     width: 600px;
     height: 300px;
     text-align: center;
